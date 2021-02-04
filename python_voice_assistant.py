@@ -28,11 +28,11 @@ def speak(audio):
 def greetMe():
     hour = int(datetime.datetime.now().hour)
     if hour>=0 and hour<12:
-        speak("good morning ma'am. please tell me how can i help you")
+        speak("good morning. please tell me how can i help you")
     elif hour>=12 and hour<18:
-        speak("good Afternoon ma'am. please tell me how can i help you")
+        speak("good Afternoon. please tell me how can i help you")
     else:
-        speak("good night ma'am. please tell me how can i help you")
+        speak("good night. please tell me how can i help you")
 
 # take command function to take command from user and convert it to string
 def takeCommand():
